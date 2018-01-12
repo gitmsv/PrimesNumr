@@ -12,8 +12,8 @@ public class PrimesNumr {
     и на единицу и которое больше единицы */
     
     public static void main(String[] args) {
-       int n = 100;
-       for (int i = 2; i <= n; i++) {
+        
+        for (int i = 2; i <= 100; i++) {
             boolean bln = true;
             int q = (int) Math.sqrt(i);
             for (int j = 2; j <= q; j++) {
